@@ -7,25 +7,35 @@ import Layout from './layout';
 
 const theme = createTheme({
   typography: {
-    fontFamily: ['"Barlow Semi Condensed"', 'Arial', 'sans-serif'].join(','),
+    fontFamily: '"Fraunces", serif',
+    h3: {
+      fontWeight: 600,
+      letterSpacing: '6px',
+    },
+    h4: {
+      fontSize: '37px',
+      fontWeight: 900,
+    },
+    h5: {
+      fontWeight: 900,
+    },
+    body1: {
+      fontFamily: '"Barlow", sans-serif',
+    },
+    subtitle1: {
+      fontWeight: 900,
+    },
+    subtitle2: {
+      fontFamily: '"Barlow", sans-serif',
+    },
   },
   components: {
     MuiButton: {
       styleOverrides: {
         root: {
           color: '#ffffff',
-          borderColor: '#ffffff',
-          '&:hover': {
-            borderColor: '#c9c9c9',
-          },
-        },
-        contained: {
-          backgroundColor: '#e4e4e4',
-          color: '#3b4363',
-          '&:hover': {
-            backgroundColor: '#f3f3f3',
-            color: '#BA2D4A',
-          },
+          textTransform: 'none',
+          fontFamily: '"Barlow", sans-serif',
         },
       },
     },
@@ -42,6 +52,12 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           color: '#ffffff',
+        },
+        h4: {
+          color: 'hsl(212, 27%, 19%)',
+        },
+        body1: {
+          color: 'hsl(210, 4%, 67%)',
         },
       },
     },
