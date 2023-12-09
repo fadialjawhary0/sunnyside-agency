@@ -3,6 +3,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 
 import LandingPage from '../views/landingPage/LandingPage';
+import Testimonials from '../views/testimonials/Testimonials';
 
 const Layout = () => {
   return (
@@ -11,6 +12,7 @@ const Layout = () => {
         height: '100vh',
       }}>
       <LandingPage />
+      <Testimonials />
     </Box>
   );
 };
