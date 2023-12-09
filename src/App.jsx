@@ -19,6 +19,9 @@ const theme = createTheme({
     h5: {
       fontWeight: 900,
     },
+    h6: {
+      letterSpacing: '3px',
+    },
     body1: {
       fontFamily: '"Barlow", sans-serif',
     },
@@ -56,7 +59,13 @@ const theme = createTheme({
         h4: {
           color: 'hsl(212, 27%, 19%)',
         },
+        h6: {
+          color: 'hsl(210, 4%, 67%)',
+        },
         body1: {
+          color: 'hsl(210, 4%, 67%)',
+        },
+        subtitle2: {
           color: 'hsl(210, 4%, 67%)',
         },
       },
