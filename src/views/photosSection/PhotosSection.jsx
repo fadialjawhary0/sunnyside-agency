@@ -3,9 +3,9 @@ import React from 'react';
 import { Box, Grid, useMediaQuery } from '@mui/material';
 import { useTheme } from '@emotion/react';
 
-import { ResponsiveImageSources } from '../landingPage/constants';
+import { ResponsiveImageSources } from '../mainSection/constants';
 
-const Photos = () => {
+const PhotosSection = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
@@ -44,4 +44,4 @@ const Photos = () => {
   );
 };
 
-export default Photos;
+export default PhotosSection;

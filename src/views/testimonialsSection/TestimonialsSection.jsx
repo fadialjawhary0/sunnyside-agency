@@ -4,7 +4,7 @@ import { Box, Grid, Typography } from '@mui/material';
 
 import { TestimonialsAuthors } from './constants/testimonials.const.mjs';
 
-const Testimonials = () => {
+const TestimonialsSection = () => {
   return (
     <Grid
       container
@@ -70,4 +70,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default TestimonialsSection;

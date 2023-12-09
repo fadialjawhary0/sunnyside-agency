@@ -2,9 +2,9 @@ import React from 'react';
 
 import { Box } from '@mui/material';
 
-import LandingPage from '../views/landingPage/LandingPage';
-import Testimonials from '../views/testimonials/Testimonials';
-import Photos from '../views/photos/Photos';
+import MainSection from '../views/mainSection/MainSection';
+import TestimonialsSection from '../views/testimonialsSection/TestimonialsSection';
+import PhotosSection from '../views/photosSection/PhotosSection';
 
 const Layout = () => {
   return (
@@ -12,9 +12,9 @@ const Layout = () => {
       sx={{
         height: '100vh',
       }}>
-      <LandingPage />
-      <Testimonials />
-      <Photos />
+      <MainSection />
+      <TestimonialsSection />
+      <PhotosSection />
     </Box>
   );
 };
