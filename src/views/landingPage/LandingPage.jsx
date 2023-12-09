@@ -98,7 +98,7 @@ const LandingPage = () => {
         <ImageBlock
           order={{ xs: 5, sm: 5 }}
           altText="Orange Photo"
-          imgName="OrangePhoto1"
+          imgName="OrangePhoto"
           projectTitle={ProjectsSectionTextContent?.Photography?.Title}
           projectDescription={
             ProjectsSectionTextContent?.Photography?.Description

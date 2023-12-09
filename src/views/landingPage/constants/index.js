@@ -1,3 +1,3 @@
 export * from './content.constant';
-export * from './responsiveImgSrc.constant.mjs';
+export * from '../../../constants/responsiveImgSrc.constant.mjs';
 export * from './projectsContent.constants.mjs';

@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 
 import LandingPage from '../views/landingPage/LandingPage';
 import Testimonials from '../views/testimonials/Testimonials';
+import Photos from '../views/photos/Photos';
 
 const Layout = () => {
   return (
@@ -13,6 +14,7 @@ const Layout = () => {
       }}>
       <LandingPage />
       <Testimonials />
+      <Photos />
     </Box>
   );
 };

@@ -3,7 +3,7 @@ import React from 'react';
 import { Box, Grid, Typography, useMediaQuery } from '@mui/material';
 import { useTheme } from '@emotion/react';
 
-import { ResponsiveImageSources } from '../views/landingPage/constants/responsiveImgSrc.constant.mjs';
+import { ResponsiveImageSources } from '../constants/responsiveImgSrc.constant.mjs';
 
 const ImageBlock = ({
   order,
@@ -16,7 +16,7 @@ const ImageBlock = ({
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const isCherryOrOrangePhoto =
-    imgName === 'CherryPhoto' || imgName === 'OrangePhoto1';
+    imgName === 'CherryPhoto' || imgName === 'OrangePhoto';
 
   const selectImageBasedOnDevice = img => {
     return isMobile
