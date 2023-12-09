@@ -10,7 +10,7 @@ import ImageBlock from '../../components/ImageBlock';
 import { MainSectionTextContent } from './constants/content.constant.mjs';
 import { ProjectsSectionTextContent } from './constants';
 
-const LandingPage = () => {
+const MainSection = () => {
   return (
     <>
       <Box sx={{ position: 'relative', height: '100%' }}>
@@ -110,4 +110,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default MainSection;
