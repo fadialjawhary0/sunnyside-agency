@@ -19,7 +19,12 @@ const MainSection = () => {
           component="img"
           alt="Orange photo"
           src={HeaderPhoto}
-          sx={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          sx={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+            userSelect: 'none',
+          }}
         />
         <Typography
           variant="h3"
