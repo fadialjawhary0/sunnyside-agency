@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 
 import { CssBaseline } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -77,7 +78,9 @@ export const App = () => {
   return (
     <CssBaseline>
       <ThemeProvider theme={theme}>
-        <Layout />
+        <Routes>
+          <Route index path="/" element={<Layout />} />
+        </Routes>
       </ThemeProvider>
     </CssBaseline>
   );

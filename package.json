@@ -1,5 +1,4 @@
 {
-  "homepage": "http://fadialjawhary0.github.io/sunnyside-agency",
   "name": "sunnyside-agency",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +8,7 @@
     "@mui/material": "^5.14.17",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1"
   },
   "scripts": {
