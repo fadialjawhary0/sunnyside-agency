@@ -78,6 +78,31 @@ const FooterSection = () => {
         <Box component="img" alt="Facebook icon" src={TwitterIcon} />
         <Box component="img" alt="Facebook icon" src={PinterestIcon} />
       </Grid>
+      <Typography
+        sx={{
+          fontSize: '1rem',
+          color: '#337A6A',
+          cursor: 'default',
+          userSelect: 'none',
+
+          '& a': {
+            color: '#337A6A',
+            textDecoration: 'none',
+            transition: 'color 0.3s ease-in-out',
+            cursor: 'pointer',
+          },
+          '& a:hover': {
+            color: '#fff',
+          },
+        }}>
+        Developed by{' '}
+        <a
+          href="https://github.com/fadialjawhary0/sunnyside-agency"
+          target="_blank"
+          rel="noreferrer">
+          Fadi Aljohari
+        </a>
+      </Typography>
     </Grid>
   );
 };
